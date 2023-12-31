@@ -1,6 +1,6 @@
 -- Mapping leader key
 -- It's advised to map leader key before loading lazy
-vim.g.leader = " "
+vim.g.mapleader = " "
 
 -- Lazy plugin manager
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
