@@ -1,4 +1,6 @@
-require("configurations")
+-- Mapping leader key
+-- It's advised to map leader key before loading lazy
+vim.g.leader = " "
 
 -- Lazy plugin manager
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -14,3 +16,5 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
+
+require("configurations")
