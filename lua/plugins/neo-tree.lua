@@ -9,7 +9,7 @@ return {
     },
     config = function()
         -- Mappings
-        vim.api.nvim_set_keymap('n', '<leader>ft', ':Neotree<CR>', { noremap = true, silent = true })
+        vim.api.nvim_set_keymap('n', '<leader>fe', ':Neotree<CR>', { noremap = true, silent = true })
 
         -- Configuration
         require("neo-tree").setup({
