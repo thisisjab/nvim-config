@@ -1,5 +1,7 @@
 -- Keep all vim/neovim configurations here
 
+vim.opt.nu = true
+
 vim.opt.termguicolors = true
 vim.cmd("colorscheme catppuccin-mocha")
 
