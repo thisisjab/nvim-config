@@ -3,7 +3,7 @@
 vim.opt.nu = true
 
 vim.opt.termguicolors = true
-vim.cmd("colorscheme catppuccin-mocha")
+vim.cmd("colorscheme moonfly")
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
