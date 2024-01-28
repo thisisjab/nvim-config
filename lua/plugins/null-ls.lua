@@ -5,7 +5,7 @@ return {
     },
     config = function()
         -- Mappings
-        vim.keymap.set('n', '<leader>gf', vim.lsp.buf.format, {})
+        vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
 
         local null_ls = require("null-ls")
 
@@ -19,9 +19,15 @@ return {
                 null_ls.builtins.formatting.black,
                 null_ls.builtins.formatting.isort,
 
+                -- Jinja
+                null_ls.builtins.diagnostics.curlylint,
+
+                -- HTML/CSS/JS
+                null_ls.builtins.formatting.rustywind,
+
                 -- Spell
                 null_ls.builtins.completion.spell,
             },
         })
-    end
+    end,
 }
