@@ -1,6 +1,6 @@
 -- Keep all vim/neovim configurations here
 
--- vim.opt.nu = true
+vim.opt.nu = true
 
 -- Fix base16 themese removing borders from telescope
 require('base16-colorscheme').with_config {
