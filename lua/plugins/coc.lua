@@ -81,8 +81,8 @@ return {
 
 
         -- Formatting selected code
-        keyset("x", "<leader>f", "<Plug>(coc-format)", { silent = true })
-        keyset("n", "<leader>f", "<Plug>(coc-format)", { silent = true })
+        keyset("x", "<leader>df", "<Plug>(coc-format)", { silent = true })
+        keyset("n", "<leader>df", "<Plug>(coc-format)", { silent = true })
 
 
         -- Setup formatexpr specified filetype(s)
