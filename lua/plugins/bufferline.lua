@@ -4,7 +4,12 @@ return { {
     dependencies = 'nvim-tree/nvim-web-devicons',
     event = 'BufReadPre',
     config = function()
-        require("bufferline").setup {}
+        require("bufferline").setup {
+            options = {
+                indicator = {
+                    style = 'underline',
+                },
+            } }
         vim.api.nvim_set_keymap('n', '<M-n>', ':BufferLineCycleNext<CR>', {
             noremap = true,
             silent = true
