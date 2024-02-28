@@ -81,8 +81,8 @@ return {
 
 
         -- Formatting selected code
-        keyset("x", "<leader>f", "<Plug>(coc-format-selected)", { silent = true })
-        keyset("n", "<leader>f", "<Plug>(coc-format-selected)", { silent = true })
+        keyset("x", "<leader>f", "<Plug>(coc-format)", { silent = true })
+        keyset("n", "<leader>f", "<Plug>(coc-format)", { silent = true })
 
 
         -- Setup formatexpr specified filetype(s)
@@ -188,6 +188,5 @@ return {
         keyset("n", "<space>k", ":<C-u>CocPrev<cr>", opts)
         -- Resume latest coc list (Disable since it interferes with telescope)
         -- keyset("n", "<space>p", ":<C-u>CocListResume<cr>", opts)
-
     end
 }
