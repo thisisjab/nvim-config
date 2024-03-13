@@ -1,5 +1,12 @@
 -- Keep all vim/neovim configurations here
 
+-- To have system clipboard support
+vim.opt.clipboard = "unnamedplus"
+
+-- Spell check
+vim.opt.spelllang = 'en_us'
+vim.opt.spell = true
+
 vim.opt.nu = true
 
 -- Fix base16 themese removing borders from telescope
