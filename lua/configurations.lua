@@ -9,14 +9,14 @@ vim.opt.spell = true
 
 vim.opt.nu = true
 
--- Fix base16 themese removing borders from telescope
+-- Fix base16 themes removing borders from telescope
 require('base16-colorscheme').with_config {
     telescope = false,
 }
 
 vim.opt.termguicolors = true
 
-vim.cmd("colorscheme base16-gruvbox-dark-hard")
+vim.cmd("colorscheme vscode")
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
