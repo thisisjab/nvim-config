@@ -9,5 +9,5 @@ return {
     { "bluz71/vim-moonfly-colors",  name = "moonfly",     priority = 1000 },
     { "rose-pine/neovim",           name = "rose-pine",   priority = 1000 },
     { "EdenEast/nightfox.nvim",     name = "nightfox",    priority = 1000 },
-    { "RRethy/base16-nvim",         name = "base16-themes", priority = 1000 },
+    -- { "RRethy/base16-nvim",         name = "base16-themes", priority = 1000 },
 }

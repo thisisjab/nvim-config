@@ -6,9 +6,9 @@ return { {
     config = function()
         require("bufferline").setup {
             options = {
-                indicator = {
-                    style = 'underline',
-                },
+                -- indicator = {
+                --     style = 'underline',
+                -- },
             } }
         vim.api.nvim_set_keymap('n', '<M-n>', ':BufferLineCycleNext<CR>', {
             noremap = true,
