@@ -16,7 +16,7 @@ vim.opt.nu = true
 
 vim.opt.termguicolors = true
 
-vim.cmd("colorscheme vscode")
+vim.cmd("colorscheme carbonfox")
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
