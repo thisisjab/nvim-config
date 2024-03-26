@@ -10,7 +10,7 @@ return {
             vim.keymap.set("n", "<leader>fg", builtin.live_grep, {})
             vim.keymap.set("n", "<leader>fs", builtin.treesitter, {})
             vim.keymap.set("n", "<leader>fd", builtin.diagnostics, {})
-            vim.keymap.set("n", "<leader>fb", builtin.git_branches, {})
+            vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
             vim.keymap.set("n", "<leader>nvt", builtin.colorscheme, {})
         end,
     },
