@@ -8,7 +8,22 @@ return {
     { "bluz71/vim-nightfly-colors", name = "nightfly",   priority = 1000 },
     { "bluz71/vim-moonfly-colors",  name = "moonfly",    priority = 1000 },
     { "rose-pine/neovim",           name = "rose-pine",  priority = 1000 },
-    { "EdenEast/nightfox.nvim",     name = "nightfox",   priority = 1000 },
+    {
+        "EdenEast/nightfox.nvim",
+        name = "nightfox",
+        priority = 1000,
+
+        opts = {
+            options = {
+                styles = {
+                    comments = "italic",
+                    keywords = "bold",
+                    types = "italic,bold",
+                }
+            }
+        },
+
+    },
     {
         "baliestri/aura-theme",
         lazy = false,
