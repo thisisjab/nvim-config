@@ -22,6 +22,9 @@ return {
                     colorscheme = {
                         enable_preview = true,
                     },
+                    buffers = {
+                        initial_mode='normal'
+                    }
                 },
                 extensions = {
                     ["ui-select"] = {
