@@ -5,12 +5,10 @@ return { {
     event = 'BufReadPre',
     config = function()
         require("bufferline").setup {
-            -- options = {
-                -- indicator = {
-                --     style = 'underline',
-                -- },
-            -- } 
-    }
+            options = {
+                show_buffer_icons = false,
+            }
+        }
         vim.api.nvim_set_keymap('n', '<M-n>', ':BufferLineCycleNext<CR>', {
             noremap = true,
             silent = true
