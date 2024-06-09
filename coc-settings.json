@@ -1,4 +1,6 @@
 {
     "python.analysis.typeCheckingMode": "off",
     "python.linting.ruffEnabled": true,
+    "diagnostic.virtualText": false,
+    "diagnostic.enableSign": false
 }
