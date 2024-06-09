@@ -15,8 +15,14 @@ vim.opt.nu = true
 -- }
 
 vim.opt.termguicolors = true
+vim.opt.background = "dark"
+vim.cmd("colorscheme oxocarbon")
+-- vim.api.nvim_set_hl(0, "Normal", { bg = "#000000" })
+-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#000000" })
+-- vim.api.nvim_set_hl(0, "Visual", { bg = "#000000" })
+-- vim.api.nvim_set_hl(0, "LineNr", { bg = "#000000" })
+-- vim.api.nvim_set_hl(0, "SignColumn", { bg = "#000000" })
 
-vim.cmd("colorscheme cinnabar")
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
