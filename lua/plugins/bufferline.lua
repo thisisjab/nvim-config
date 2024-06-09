@@ -15,7 +15,7 @@ return { {
                         separator = true -- use a "true" to enable the default, or set your own character
                     }
                 },
-                always_show_bufferline = false,
+                always_show_bufferline = true,
             }
         }
         vim.api.nvim_set_keymap('n', '<M-n>', ':BufferLineCycleNext<CR>', {
