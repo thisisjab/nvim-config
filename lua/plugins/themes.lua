@@ -25,6 +25,13 @@ return {
                     keywords = "bold",
                     types = "italic,bold",
                 }
+            },
+            palettes = {
+                all = {
+                    black = "#000000",
+                    bg0 = "#000000",
+                    bg1 = "#000000"
+                }
             }
         },
 

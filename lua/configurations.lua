@@ -16,7 +16,7 @@ vim.opt.nu = true
 
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
-vim.cmd("colorscheme oxocarbon")
+vim.cmd("colorscheme carbonfox")
 -- vim.api.nvim_set_hl(0, "Normal", { bg = "#000000" })
 -- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#000000" })
 -- vim.api.nvim_set_hl(0, "Visual", { bg = "#000000" })
