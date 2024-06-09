@@ -7,6 +7,15 @@ return { {
         require("bufferline").setup {
             options = {
                 show_buffer_icons = false,
+                offsets = {
+                    {
+                        filetype = "neo-tree",
+                        text = "Work hard!",
+                        highlight = "Directory",
+                        separator = true -- use a "true" to enable the default, or set your own character
+                    }
+                },
+                always_show_bufferline = false,
             }
         }
         vim.api.nvim_set_keymap('n', '<M-n>', ':BufferLineCycleNext<CR>', {
